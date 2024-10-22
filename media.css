@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) {
+    .main {
+        >.nav {
+            .active{
+                height: 0px;
+                padding: 0;
+                transition: all 1s;
+
+            }
+            >ul {
+                position: absolute;
+                flex-direction: column;
+                top: 70px;
+                width: 100dvw;
+                left: 0;
+                background-color: rgb(220, 217, 174);
+                padding: 15px;
+                box-sizing: border-box;
+                overflow: hidden;
+                transition: all 1s;
+
+            }
+
+            >i{
+                display: block;
+
+            }
+
+        }
+
+        >.content {}
+
+    }
+}
